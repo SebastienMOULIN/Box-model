@@ -48,7 +48,8 @@ body {
 
 h2 {
     font-size: smaller;
-
+    display: flex;
+    justify-content: center;
     padding-top: 1px;
 
 
@@ -78,6 +79,7 @@ form {
 
 .small {
     font-size: xx-small;
+    margin-top: 3px;
 }
 
 section article {
