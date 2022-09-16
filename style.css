@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Menu*/
+ul {
+    background-color: #424242;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    list-style-type: none;
+    height: 30px;
+    font-size: x-small;
+
+
+}
+
+li {
+
+    padding: 1%;
+    color: #EEEEEE;
+    height: 20px;
+    margin-top: 1px;
+}
+
+li:nth-child(odd) {
+    background-color: #424242;
+}
+
+li:nth-child(even) {
+    background-color: #EEEEEE;
+    color: #424242;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel {
+
+    background-color: #EEEEEE;
+    height: 200px;
+    margin-top: -15px;
+
+}
+
+h2 {
+    font-size: smaller;
+
+    padding-top: 1px;
+
+
+}
+
+input,
+textarea,
+select {
+    display: block;
+    align-items: center;
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #ffffff;
+
+}
+
+
+
+form {
+    width: 100%;
+    border-top: 1px solid black;
+    margin-top: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.small {
+    font-size: xx-small;
+}
+
+section article {
+    background-color: #EEEEEE;
+    width: 32%;
+    height: 100%;
+}
+
+section:nth-child(4) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+}
